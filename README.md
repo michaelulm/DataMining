@@ -9,7 +9,7 @@ there are some basic selected useful operations
 - load current twitter [trends](/twitter/trends.py "Trends by definied place")  
 - load a single [tweet](/twitter/tweet_single.py "Get a single tweet by ID")
 - update you twitter status / [write a tweet](/twitter/tweet_update.py "tweet your status")
- 
+- query the [twitter stream api](/twitter/twitter_stream.php "twitter stream api")
 
 ## Links
 
