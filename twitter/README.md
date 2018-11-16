@@ -32,6 +32,10 @@
 	- retweet a tweet of a retweeted tweet, which you already has retweeted
 - go back to the first task and read your retweeted tweet, analyse the **tweet object**
 
+### Favorite Tweet
+- choose a random tweet and copy tweet id
+- implement a small app which favorite this selected tweet
+
 ### Query the Twitter Stream API
 - think about any topic you are interested
 - query the twitter stream for any selected topic, e.g. Education
