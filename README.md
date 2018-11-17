@@ -13,7 +13,7 @@ take care that you have installed needed modules.
     OR
     pip install pyjson
 
-if you are using Python 2.x and 3.x on Windows
+if you are using Python 2.x and 3.x on Windows, on Windows also take care to add Python to your PATH Variables
 
 	py -2 -m pip list
 to check which modules are installed
