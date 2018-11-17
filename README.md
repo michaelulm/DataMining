@@ -2,6 +2,24 @@
 
 This Repository includes some Kick-Start Examples for Twitter Data Mining and will be used for educational usage.
 
+## Python
+
+for current examples you will need Python 2.x, [Download](https://www.python.org/downloads/) and Install current 2.x Version
+
+take care that you have installed needed modules.
+
+    pip install twitter
+    pip install json
+
+if you are using Python 2.x and 3.x on Windows
+
+	py -2 -m pip list
+to check which modules are installed
+
+	py -2 -m pip install twitter
+	py -2 -m pip install json
+to install needed modules
+
 ## Twitter
 
 there are some basic / selected operations
