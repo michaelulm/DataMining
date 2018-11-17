@@ -17,5 +17,5 @@ search_results = twitter_api.search.tweets(q=q, count=count)
 
 statuses = search_results['statuses']
 for tweet in statuses:
-	print tweet['text'].encode('utf-8')
+	print(tweet['text'].encode('utf-8'))
 	

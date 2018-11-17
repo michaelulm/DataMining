@@ -20,5 +20,5 @@ twitter_stream = twitter.TwitterStream(auth=twitter_api.auth)
 stream = twitter_stream.statuses.filter(track=q)
 
 for tweet in stream:
-	print "---------------------------------------------------"
-	print "Tweet: " + str(tweet['text'].encode('utf-8'))
+	print("---------------------------------------------------")
+	print("Tweet: " + str(tweet['text'].encode('utf-8')))

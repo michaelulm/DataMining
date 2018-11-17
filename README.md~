@@ -10,8 +10,6 @@ take care that you have installed needed modules.
 
     pip install twitter
     pip install json
-    OR
-    pip install pyjson
 
 if you are using Python 2.x and 3.x on Windows
 

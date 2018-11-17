@@ -15,4 +15,4 @@ results = twitter_api.users.search(q = '"Mike Ulm"')
 # loop through each user, and print their details
 for user in results:
 	print("@%s (%s): %s" % (user["screen_name"], user["name"], user["location"]))
-	print json.dumps(user, indent=1)
+	print(json.dumps(user, indent=1))
