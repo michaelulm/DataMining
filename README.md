@@ -24,6 +24,8 @@ to install needed modules
 
 there are some basic / selected operations
 
+take care to copy Twitter Config Template and add your Keys and tokens. After adding Keys and tokens run those short demos.
+
 - load current twitter [trends](/twitter/trends.py "Trends by definied place")  
 - load a single [tweet](/twitter/tweet_single.py "Get a single tweet by ID")
 - update you twitter status / [write a tweet](/twitter/tweet_update.py "tweet your status")
