@@ -18,4 +18,4 @@ results = twitter_api.trends.place(_id = woe_id)
 #print json.dumps(results, indent=1)
 
 for trend in results[0]['trends']:
-	print trend['name'] 
+	print(trend['name'])

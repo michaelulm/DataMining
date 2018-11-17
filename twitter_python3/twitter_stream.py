@@ -11,7 +11,7 @@ twitter_api = twitter.Twitter(auth=auth)
 # Query terms
 q = 'Education' # Comma-separated list of terms
 
-print >> sys.stderr, 'Filtering the public timeline for track="%s"' % (q,)
+print('Filtering the public timeline for track="%s"' % (q,))
 
 # Reference the self.auth parameter
 twitter_stream = twitter.TwitterStream(auth=twitter_api.auth)
@@ -20,5 +20,5 @@ twitter_stream = twitter.TwitterStream(auth=twitter_api.auth)
 stream = twitter_stream.statuses.filter(track=q)
 
 for tweet in stream:
-	print "---------------------------------------------------"
-	print "Tweet: " + str(tweet['text'].encode('utf-8'))
+	print("---------------------------------------------------")
+	print("Tweet: " + str(tweet['text'].encode('utf-8')))

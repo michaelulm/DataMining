@@ -8,9 +8,6 @@ auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
 
 twitter_api = twitter.Twitter(auth=auth)
 
-tweet_id = 1059059980530339840
-
-# get single tweet
-tweet = twitter_api.statuses.show(id=tweet_id)
-# simple output loaded tweet
-print json.dumps(tweet, indent=1)
+# update your current status
+status_text = "Tweet tweet tweet :) !"
+twitter_api.statuses.update(status=status_text)

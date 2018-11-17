@@ -13,4 +13,4 @@ tweet_id = 1059059980530339840
 # get single tweet
 tweet = twitter_api.statuses.show(id=tweet_id)
 # simple output loaded tweet
-print json.dumps(tweet, indent=1)
+print(json.dumps(tweet, indent=1))
