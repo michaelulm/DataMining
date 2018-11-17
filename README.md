@@ -31,6 +31,7 @@ take care to copy Twitter Config Template and add your Keys and tokens. After ad
 - update you twitter status / [write a tweet](/twitter/tweet_update.py "tweet your status")
 - query the [twitter stream api](/twitter/twitter_stream.py "twitter stream api")
 - query twitter [users](/twitter/users.py "looking for some twitter users by e.g. their name")
+- query twitter [statuses](twitter/tweet_archive.py "Query Twitter Archive")
 
 go next to the [twitter exercises](/twitter/README.md)
 
